@@ -18,6 +18,7 @@ RUN pip3 install -r requirements.txt
 COPY run.py .
 COPY . .
 ENV FLASK_APP="run.py"
+ENV FLASK_DEBUG=1
 ENV POSTGRES_URL="0.0.0.0:5432"
 ENV POSTGRES_USER="postgres"
 ENV POSTGRES_PW="dbpw"
