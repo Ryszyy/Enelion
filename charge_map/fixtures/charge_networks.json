@@ -1,0 +1,27 @@
+[
+    {
+        "table": "chargepointmodel",
+        "records": [{
+            "id": 1,
+            "latitude": 40.0,
+            "longitude": 34.3,
+            "price": 100,
+            "owner": "Grzegorz"
+        }]
+    },
+    {
+        "model": "charge_net.project.models.ChargePointModel",
+        "records": [{
+            "offer_charge_power": 32,
+            "charge_network_id": 1
+        },
+        {
+            "offer_charge_power": 20,
+            "charge_network_id": 1
+        },
+        {
+            "offer_charge_power": 10,
+            "charge_network_id": 1
+        }]
+    }
+]
